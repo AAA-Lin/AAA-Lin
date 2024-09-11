@@ -27,7 +27,7 @@ def getFileContents(filePath):
     return ret
 
 
-# 使用jieba库进行分词并正则
+# 使用jieba库进行分词并正则判断
 def processFile(fileStr):
     fileStr = lcut(fileStr)
     res = []
