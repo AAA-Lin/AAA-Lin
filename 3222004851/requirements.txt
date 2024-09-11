@@ -1,0 +1,3 @@
+pip install re
+pip install jieba
+pip install gensim
