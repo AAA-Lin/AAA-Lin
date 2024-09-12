@@ -66,9 +66,9 @@ if __name__ == '__main__':
     text1 = filter(str1)
     text2 = filter(str2)
     similarity = file_similarity(text1, text2)
-    print("文章相似度： %.4f" % similarity)
+    print("文章相似度： %.2f" % similarity)
     # 将结果输出写入指定文件
     f = open(save_path, 'w', encoding="utf-8")
-    f.write( "文章相似度： %.4f" % similarity)
+    f.write( "文章相似度： %.2f" % similarity)
     f.close()
 
