@@ -7,6 +7,7 @@
     <list default="true" id="886d1de0-e60b-484e-8ec5-45de0e1637be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/-Similarity-index.0" beforeDir="false" afterPath="$PROJECT_DIR$/-Similarity-index.0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ans.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +34,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_papercheck.MyTestCase.executor": "Coverage",
     "Python tests.Python tests in main.py.executor": "Run",
     "Python tests.Python tests in test.py.executor": "Run",
-    "Python tests.Python tests in test_papercheck.py.executor": "Run",
+    "Python tests.Python tests in test_papercheck.py.executor": "Coverage",
     "Python.PaperCheck.executor": "Run",
     "Python.main (1).executor": "Profiler",
-    "Python.main .executor": "ConcurrencyExecutor",
+    "Python.main .executor": "Run",
     "Python.main.executor": "Coverage",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -121,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in D:/学习资料/软工作业/AAA-Lin/3222004851/test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_papercheck.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="论文查重" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,8 +136,8 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_papercheck.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in main.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -173,8 +176,8 @@
       <list>
         <item itemvalue="Python.main " />
         <item itemvalue="Python tests.Python tests in test_papercheck.py" />
+        <item itemvalue="Python tests.Python tests for test_papercheck.MyTestCase" />
         <item itemvalue="Python tests.Python tests in main.py" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -205,6 +208,9 @@
       <workItem from="1726105749327" duration="236000" />
       <workItem from="1726105996131" duration="76000" />
       <workItem from="1726106079931" duration="713000" />
+      <workItem from="1726106822790" duration="446000" />
+      <workItem from="1726107294320" duration="1198000" />
+      <workItem from="1726108510295" duration="2125000" />
     </task>
     <servers />
   </component>
@@ -213,9 +219,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$main.coverage" NAME="main Coverage Results" MODIFIED="1725633018744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/3222004851$main_.coverage" NAME="main  Coverage Results" MODIFIED="1726106732937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/3222004851$main_.coverage" NAME="main  覆盖结果" MODIFIED="1726110388441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/3222004851$main.coverage" NAME="main Coverage Results" MODIFIED="1726103508151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/3222004851$PaperCheck.coverage" NAME="PaperCheck Coverage Results" MODIFIED="1726100157196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/3222004851$.coverage" NAME=" Coverage Results" MODIFIED="1726106593834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/3222004851$.coverage" NAME=" 覆盖结果" MODIFIED="1726109259039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
