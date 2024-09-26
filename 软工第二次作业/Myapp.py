@@ -32,7 +32,7 @@ class Operation:
             # True表示检查后无重复
             if check(exercise_list, answer, topic, ans):
                 topic.append(str("".join(exercise_list)))
-                f_exercise.write("题目" + str(count + 1) + ": " + ' '.join(exercise_list) + ' =\n')
+                f_exercise.write("四则运算题目" + str(count + 1) + ": " + ' '.join(exercise_list) + ' =\n')
                 if re.search('/', answer):
                     d, n = answer.split('/')
                     ans.append(answer)
